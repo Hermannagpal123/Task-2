@@ -12,3 +12,19 @@ body {
   overflow: hidden;
   height:100vh;
 }
+
+.panel-container {
+  background-color: #373348;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  font-size: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  max-width: 400px;
+  color: #8ffbd7;
+  margin:10% auto 2% auto;
+}
