@@ -17,3 +17,25 @@ body {
     height: 100vh;
 }
 
+.container {
+   width: 400px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); 
+   text-align: center;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    background-color:#33d9b2;
+    color: white;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
