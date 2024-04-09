@@ -58,3 +58,14 @@ button {
     color:white;
     margin-bottom: 10px;
 }
+
+.result {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#bmi-value, #bmi-status {
+    color:#33d9b2;
+}
