@@ -164,6 +164,146 @@ section{
     padding: 1rem 0;
 }
 
+.icons-container{
+    display: grid;
+    gap:2rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.icons-container .icons{
+    border:var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.icons-container .icons i{
+    font-size: 4.5rem;
+    color:var(--green);
+    padding-bottom: .7rem;
+}
+
+.icons-container .icons h3{
+    font-size: 4.5rem;
+    color:var(--black);
+    padding: .5rem 0;
+    text-shadow: var(--text-shadow);
+}
+
+.icons-container .icons p{
+    font-size: 1.7rem;
+    color:var(--light-color);
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+
+.about .row .image{
+    flex:1 1 45rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+
+.about .row .content{
+    flex:1 1 45rem;
+}
+
+.about .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+
+.about .row .content p{
+    color: var(--light-color);
+    padding:1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:2rem;
+}
+
+.services .box-container .box1{
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    padding: 2.5rem;
+}
+
+.services .box-container .box1 i{
+    color: var(--green);
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+.services .box-container .box1 h3{
+    color: var(--black);
+    font-size: 2.5rem;
+    padding: 0.5em;
+}
+
+.services .box-container .box1 p{
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+}
+.services .box-container .box2{
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    padding: 3rem;
+}
+
+.services .box-container .box2 i{
+    color: var(--green);
+    font-size: 2rem;
+    padding-bottom: .3rem;
+}
+
+.services .box-container .box2 h3{
+    color: var(--black);
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
+.services .box-container .box2 p{
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+    padding: auto;
+
+}
+.services .box-container .box3{
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    padding: 2rem;
+}
+
+.services .box-container .box3 i{
+    color: var(--green);
+    font-size: 2rem;
+    padding-bottom: 30rem;
+}
+
  
 
 
