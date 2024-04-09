@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.navbar');
 
@@ -9,8 +9,6 @@ menu.onclick = () =>{
 window.onscroll = () =>{
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
-}
-=======
 const height = document.querySelector('#height');
 const weight = document.querySelector('#weight');
 const bmi_value = document.querySelector('#bmi-value');
@@ -47,4 +45,4 @@ calculate.addEventListener('click', () => {
         }
    }
 });
->>>>>>> 40c0d89ae34f6debf056cc864a12baccee25cec1
+
