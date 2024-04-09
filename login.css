@@ -147,3 +147,17 @@ input[type=submit]{
 	cursor:pointer;
     outline: none;
 }
+input[type=submit]:hover{
+	 background-color:#ffffff;
+     color: #000000;
+     font-weight: bold;
+}
+input[type=checkbox]{
+    background-color:#df80ff;
+}
+#check{
+    margin-top: 10px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 15px;
+}
