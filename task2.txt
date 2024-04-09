@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 My name is Nikhil Gupta roll no 2310990836.
+=======
+here we are working on bmi pro website.
+my name is madhav keshav singla and roll no is 2310991366
+
+>>>>>>> 513e4b1ca6ae26c4a82065ebe6f8d46fb683c2c2
