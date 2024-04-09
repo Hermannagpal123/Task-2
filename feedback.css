@@ -78,3 +78,22 @@ body {
 .btn:focus {
   outline: 0;
 }
+.btn:active {
+  transform: scale(0.98);
+}
+
+.fa-heart {
+  color: red;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+.credit a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .credit {
+      text-align: center;
+  }
