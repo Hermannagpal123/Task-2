@@ -45,3 +45,27 @@ body{
 	justify-content: center;
     cursor:pointer;
 }
+.header .active {
+    color: blueviolet;
+	font-weight: bold;
+	position: relative;
+}
+
+.header .active:after {
+	position: absolute;
+    border: none;
+	content: "";
+}
+
+#errorMsg{
+    color:red;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 20px;
+
+}
+
+.content{
+    display: inline-flex;
+    overflow: hidden;
+}
